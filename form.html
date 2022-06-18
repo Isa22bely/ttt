@@ -1,0 +1,68 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form</title>
+   <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<picture>
+   <a href="index.html" >
+     <img src="./img/Star1.svg" alt="estrela" />
+   </a>
+</picture>
+<nav>
+   <input id="menu-toggle" type="checkbox" />
+   <label for="menu-toggle">
+     <div class="menu-hamburger">
+       <span class="hamburger"></span>
+     </div>
+   </label>
+   <ul>
+     <li>
+       <a href="index.html">tabelas</a>
+     </li>
+   </ul>
+ </nav>
+<body>
+   <fieldset>
+   <legend>Contato</legend>
+   <div>
+   <label for="Nome">Nome</label>
+   <input type="text" name="Nome" id="Nome" placeholder="José"/>
+</div>
+<div>
+   <label for="E-mail">E-mail</label>
+   <input type="E-mail" id="E-mail" name="E-mail" placeholder="jose@jose.com.br"/>
+</div>
+<div>
+  <input type="checkbox" name="Masculino" value="Masculino" id="Masculino"/>
+  <label for="Masculino">Masculino</label>
+  <input type="checkbox" name="Feminino" value="Feminino" id="Feminino"/>
+  <label for="Feminino">Feminino</label>
+</div>
+<div>
+   <select name="Estado" id="Estado" required >
+       <label for="Estado">Estado/Cidade</label>
+   <option>
+       <option value="Minas Gerais">Minas Gerais</option>
+       <option value="Rio de Janeiro">Rio de Janeiro</option>
+   </option>
+      <label for="E-mail"></label>
+         <label for="E-mail">E-mail</label>
+         <input type="Cidade" id="Cidade" name="Cidade" />
+         <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+         Selecione um arquivo
+         <input type="file" />
+         <div>
+          <label for="Comentario">Comentario</label>
+          <input type="text" name="Comentario" id="Comentario" />
+       </div> 
+      </div>
+      <button>Enviar</button>
+</select>
+</div>
+</fieldset>
+</body>
+</html>
